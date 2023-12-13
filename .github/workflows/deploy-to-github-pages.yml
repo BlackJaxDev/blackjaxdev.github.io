@@ -19,7 +19,7 @@ env:
   NODE_OPTIONS: --max-old-space-size=6144
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:

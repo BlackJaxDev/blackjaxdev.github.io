@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[9770],{7587:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/docs.blackjaxvr.com/blog/tags/hola","allTagsPath":"/docs.blackjaxvr.com/blog/tags","count":1,"unlisted":false}')}}]);

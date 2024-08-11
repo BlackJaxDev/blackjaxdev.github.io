@@ -1,0 +1,38 @@
+.toolsSection {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.section__title {
+    font-size: 2.5rem;
+    color: #4a148c; /* A deep purple for the titles, nya~ */
+    margin-bottom: 2rem;
+}
+
+.toolsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.tool {
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.tool:hover {
+    transform: translateY(-10px);
+}
+
+/* Simple fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.animate__fadeIn {
+    animation: fadeIn 1s ease;
+}

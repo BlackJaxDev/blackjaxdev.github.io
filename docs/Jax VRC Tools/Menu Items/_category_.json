@@ -1,0 +1,8 @@
+{
+  "label": "Menu Items",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A guide to JVRCT's menu items, located under 'Jax VRC Tools' and under 'Windows/Jax VRC Tools' in the main menu bar. The 'Windows' submenu only contains windows, while the main submenu contains all helper menu commands along with windows."
+  }
+}

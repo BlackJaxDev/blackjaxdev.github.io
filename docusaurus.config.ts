@@ -6,7 +6,7 @@ const organizationName = "blackjaxdev";
 const projectName = "blackjaxdev.github.io";
 
 const config: Config = {
-  title: 'BlackJaxVR Tools Documentation',
+  title: 'BlackJaxVR\'s Unity & Streaming Tools for VRChat',
   tagline: '',
   favicon: 'img/favicon.ico',
 
@@ -21,7 +21,7 @@ const config: Config = {
   organizationName : `${organizationName}`, // Usually your GitHub org/user name.
   projectName: `${projectName}`, // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
   
@@ -62,9 +62,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Home',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -72,11 +72,10 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Start Here',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: `https://github.com/${organizationName}/${projectName}`,
+          href: `https://github.com/BlackJaxDev`,
           label: 'GitHub',
           position: 'right',
         },
@@ -86,11 +85,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Jax VRC Tools',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Getting Started',
+              to: '/docs/Jax VRC Tools/Getting Started',
             },
           ],
         },

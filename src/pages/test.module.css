@@ -1,0 +1,21 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  color: white;
+  background-color: #6a1b9a; /* A cute purple background, nya~ */
+}
+
+.hero__title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.button--lg {
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+}
